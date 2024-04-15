@@ -1,0 +1,23 @@
+.service-info{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.service-info img{
+    margin-left: -8px;
+    width: 18%;
+    height: 50px;
+    aspect-ratio: 3/2;
+}
+
+.service-info.des{
+    background: #fff;
+}
+
+.des p{
+    font-size: 12px;
+    margin-top: 7px;
+    line-height: 23px;
+}

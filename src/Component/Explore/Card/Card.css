@@ -1,0 +1,84 @@
+.explore-design{
+    background: #ffffff;
+    width: 90%;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.explore-design:hover{
+    transform: scale(1.1);
+    border: 2px solid Red;
+}
+
+.explore-design img{
+    width: 70%;
+    aspect-ratio: 3/2;
+}
+
+.car-des{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.car-des h2 {
+    margin-bottom: 8px;
+}
+
+.car-des button{
+    padding: 10px;
+    width: 200px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 8px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+}
+
+.car-des button:hover{
+    background: black;
+    border: 1px solid blue;
+}
+
+.car{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 320px;
+    gap: 10px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.car img{
+    margin-bottom: 40px;
+    width: 90%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+@media (max-width: 946px){
+    .explore-design{
+        transition: none;
+        margin-right: 10px;
+    }
+
+    .explore-design:hover{
+        transform: none;
+        border: 2px solid black;
+    }
+}
+

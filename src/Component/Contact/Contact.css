@@ -1,0 +1,72 @@
+.contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #fff;
+    padding: 10px;
+}
+
+.contact-form{
+    width: 100%;
+    padding: 20px;
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 99%;
+    background: #ebecfe;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact button{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.2 ease;
+}
+
+.contact button:hover{
+    border: 2px solid black;
+}
+
+.contact-info{
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-info h2{
+    text-align: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+}
+
+.contact-info .dial {
+    align-items: center;
+    margin: 20px -10px 0 0;
+    padding: 20px;
+}
+
+.contact-info p{
+    font-size: 15px;
+}
+
+.contact-info .dial h5{
+    margin: 10px 0 5px -2px;
+}
+
+
+@media (max-width:650px){
+   .contact{
+    display: flex;
+    flex-direction: column;
+   }
+}

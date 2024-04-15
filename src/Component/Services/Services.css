@@ -1,0 +1,16 @@
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    background: #ffff;
+}
+
+
+@media (max-width: 650px){
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+}

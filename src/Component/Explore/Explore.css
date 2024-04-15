@@ -1,0 +1,17 @@
+.explore{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+
+@media (max-width: 946px){
+    .explore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+}
